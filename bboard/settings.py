@@ -131,7 +131,7 @@ AUTH_USER_MODEL = 'main.AdvUser'
 
 TIME_ZONE = 'UTC'
 
-EMAIL_PORT = 1025
+# EMAIL_PORT = 1025
 
 USE_I18N = True
 
