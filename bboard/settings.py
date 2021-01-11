@@ -25,7 +25,7 @@ SECRET_KEY = '%p@ybpan&e)_4gul&!0w!+9-2epo-4feysfsmuohm-!k4qi)d4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bboard-artem.herokuapp.com']
 
 
 # Application definition
