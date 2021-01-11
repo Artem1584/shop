@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '%p@ybpan&e)_4gul&!0w!+9-2epo-4feysfsmuohm-!k4qi)d4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['bboard-artem.herokuapp.com']
 
@@ -131,7 +131,7 @@ AUTH_USER_MODEL = 'main.AdvUser'
 
 TIME_ZONE = 'UTC'
 
-# EMAIL_PORT = 1025
+EMAIL_PORT = 1025
 
 USE_I18N = True
 
